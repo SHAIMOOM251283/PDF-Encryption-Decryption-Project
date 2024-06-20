@@ -3,9 +3,9 @@
 This project provides a Python implementation for encrypting and decrypting PDF files using passwords generated from user input. The process enhances password protection by transforming user input into a complex password through a substitution cipher.
 
 ## Features
-  •	PDF Encryption: Encrypts an existing PDF file with a password generated from user input.
-  •	PDF Decryption: Decrypts the encrypted PDF file using the same user input and key to regenerate the password.
-  •	Enhanced Password Security: Utilizes a substitution cipher to transform the user input, adding complexity and obfuscation to the password.
+•	PDF Encryption: Encrypts an existing PDF file with a password generated from user input.
+•	PDF Decryption: Decrypts the encrypted PDF file using the same user input and key to regenerate the password.
+•	Enhanced Password Security: Utilizes a substitution cipher to transform the user input, adding complexity and obfuscation to the password.
 
 ## How It Works
 
