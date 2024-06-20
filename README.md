@@ -10,10 +10,7 @@ This project provides a Python implementation for encrypting and decrypting PDF 
 ## How It Works
 
 ### Encryption
-1.	Complex Password Generation:
-  o	During encryption, the user provides a text string and a numerical key.
-  o	The text string is transformed using the key through a substitution cipher, creating a complex and less predictable password.
-  o	This transformation process increases the complexity of the password, making it harder to guess or crack.
+1.	Complex Password Generation: During encryption, the user provides a text string and a numerical key. The text string is transformed using the key through a substitution cipher, creating a complex and less predictable password. This transformation process increases the complexity of the password, making it harder to guess or crack.
 2.	Obfuscation:
   o	The transformation involves shifting each character in the input text by the value of the key within a predefined set of symbols (SYMBOLS).
   o	This obfuscates the original input, ensuring that even common phrases or words become unique and complex passwords.
